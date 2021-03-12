@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             num1 = Integer.parseInt(num1EditTExt.getText().toString());
             num2 = Integer.parseInt(num2EditTExt.getText().toString());
+            Log.e("DENNA", "The values of num1 and num2 are " + num1 + " " + num2);
         }
         catch(Exception e) {
             Log.e("DENNA", "No number entered, using default of 0");
