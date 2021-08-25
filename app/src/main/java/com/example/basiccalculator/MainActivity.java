@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         int num1 = 0;
         int num2 = 0;
+
         // get the values from the EditText boxes and convert them to int data types
         // use a try catch block to avoid the app crashing if nothing is entered.
         try {
@@ -61,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
 
         int num1 = 0;
         int num2 = 0;
+
+        Log.e("DENNA", "About to try getting int values");
 
         // get the values from the EditText boxes and convert them to int data types
         // use a try catch block to avoid the app crashing if nothing is entered.
